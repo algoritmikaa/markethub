@@ -1,0 +1,1039 @@
+[
+  {
+    "id": 1,
+    "name": "Смарт-колонка Aura Max",
+    "price": 12990,
+    "old_price": 15990,
+    "category": "Электроника",
+    "description": "Мощный звук, голосовой помощник и стильная подсветка для рабочего стола.",
+    "delivery": "Сегодня",
+    "rating": 4.9,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_1.png",
+    "photos": [
+      "static/products/product_1.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Плед Infinity Warm",
+    "price": 4990,
+    "old_price": 6990,
+    "category": "Дом и уют",
+    "description": "Мягкий теплый плед для дома, отдыха и уютных вечеров.",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Уют",
+    "image": "static/products/product_2.png",
+    "photos": [
+      "static/products/product_2.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Рюкзак City Move",
+    "price": 7590,
+    "old_price": 8990,
+    "category": "Аксессуары",
+    "description": "Легкий складной рюкзак для учебы, прогулок и поездок.",
+    "delivery": "Сегодня",
+    "rating": 4.7,
+    "stock": "В наличии",
+    "badge": "Практично",
+    "image": "static/products/product_3.jpg",
+    "photos": [
+      "static/products/product_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ланч-бокс Bento Set",
+    "price": 3490,
+    "old_price": 4590,
+    "category": "Товары для дома",
+    "description": "Компактный набор для еды с аккуратными отделениями.",
+    "delivery": "2 дня",
+    "rating": 4.6,
+    "stock": "Под заказ",
+    "badge": "Топ",
+    "image": "static/products/product_4.png",
+    "photos": [
+      "static/products/product_4.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Фитнес-браслет Pulse Lite",
+    "price": 5990,
+    "old_price": 7990,
+    "category": "Электроника",
+    "description": "Следит за активностью, уведомлениями и временем работы без лишних функций.",
+    "delivery": "Сегодня",
+    "rating": 4.9,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_5.png",
+    "photos": [
+      "static/products/product_5.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Клавиатура Mechanical RGB",
+    "price": 2790,
+    "old_price": 3490,
+    "category": "Компьютерные аксессуары",
+    "description": "Механическая клавиатура с яркой RGB-подсветкой для учебы, игр и работы.",
+    "delivery": "Завтра",
+    "rating": 4.5,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_6.png",
+    "photos": [
+      "static/products/product_6.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Портативный SSD SanDisk 2TB",
+    "price": 3890,
+    "old_price": 4990,
+    "category": "Компьютерные аксессуары",
+    "description": "Быстрый внешний накопитель для файлов, проектов, фото и видео.",
+    "delivery": "Сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_7.png",
+    "photos": [
+      "static/products/product_7.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Аэрогриль Smart Grill 8L",
+    "price": 18990,
+    "old_price": 21990,
+    "category": "Техника",
+    "description": "Компактный аэрогриль с программами для быстрых домашних блюд.",
+    "delivery": "2 дня",
+    "rating": 4.9,
+    "stock": "В наличии",
+    "badge": "Для дома",
+    "image": "static/products/product_8.webp",
+    "photos": [
+      "static/products/product_8.webp"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Смарт-колонка Harman Kardon Aura",
+    "price": 12000,
+    "old_price": null,
+    "category": "Электроника",
+    "description": "Премиальная колонка с чистым объемным звуком и эффектной подсветкой.",
+    "delivery": "сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Premium",
+    "image": "static/products/product_9.png",
+    "photos": [
+      "static/products/product_9.png"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ланч-бокс Bento Lunch",
+    "price": 20000,
+    "old_price": null,
+    "category": "Товары для дома",
+    "description": "Удобный контейнер для обеда, перекуса и аккуратного хранения еды.",
+    "delivery": "сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Полезно",
+    "image": "static/products/product_10.png",
+    "photos": [
+      "static/products/product_10.png"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Рюкзак складной City Move",
+    "price": 600,
+    "old_price": null,
+    "category": "Аксессуары",
+    "description": "Легкий рюкзак, который удобно брать с собой каждый день.",
+    "delivery": "сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_11.jpg",
+    "photos": [
+      "static/products/product_11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "RTX 4090 Ti Supreme",
+    "price": 249990,
+    "old_price": 289990,
+    "category": "Комплектующие для ПК",
+    "description": "Топовая видеокарта для 4K, стриминга и нейросетей с максимальной производительностью.",
+    "delivery": "Сегодня",
+    "rating": 5.0,
+    "stock": "В наличии",
+    "badge": "Премиум",
+    "image": "static/products/product_12.png",
+    "photos": [
+      "static/products/product_12.png"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Intel Core i9-14900K",
+    "price": 69990,
+    "old_price": 79990,
+    "category": "Комплектующие для ПК",
+    "description": "Мощный процессор для игровых сборок, монтажа и профессиональных задач.",
+    "delivery": "Завтра",
+    "rating": 4.9,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_13.png",
+    "photos": [
+      "static/products/product_13.png"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Corsair DOMINATOR Platinum RGB 64GB",
+    "price": 39990,
+    "old_price": 44990,
+    "category": "Комплектующие для ПК",
+    "description": "Высокочастотная память с премиальным дизайном и яркой RGB-подсветкой.",
+    "delivery": "Сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_14.png",
+    "photos": [
+      "static/products/product_14.png"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "ASUS ROG Swift OLED PG27AQDP",
+    "price": 129990,
+    "old_price": 149990,
+    "category": "Комплектующие для ПК",
+    "description": "Премиальный монитор 360 Гц для профессиональных игр и топовых сборок.",
+    "delivery": "Сегодня",
+    "rating": 5.0,
+    "stock": "В наличии",
+    "badge": "Премиум",
+    "image": "static/products/product_15.png",
+    "photos": [
+      "static/products/product_15.png"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "NZXT H9 Elite Flow",
+    "price": 29990,
+    "old_price": 34990,
+    "category": "Комплектующие для ПК",
+    "description": "Кейс с панорамным стеклом и продуманной вентиляцией для мощных систем.",
+    "delivery": "Завтра",
+    "rating": 4.9,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_16.jpg",
+    "photos": [
+      "static/products/product_16.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Lian Li O11 Dynamic Evo",
+    "price": 24990,
+    "old_price": 27990,
+    "category": "Комплектующие для ПК",
+    "description": "Супер-стильный корпус с продуманной компоновкой и премиальной сборкой.",
+    "delivery": "Сегодня",
+    "rating": 4.8,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_17.png",
+    "photos": [
+      "static/products/product_17.png"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "MSI GeForce RTX™ 5080 16G GAMING TRIO OC",
+    "price": 132430,
+    "old_price": 152000,
+    "category": "Электроника",
+    "description": "",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_18.png",
+    "photos": [
+      "static/products/product_18.png"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-02T11:38:58.786530"
+  },
+  {
+    "id": 19,
+    "name": "Процессор AMD Ryzen 7 7800X3D OEM",
+    "price": 29399,
+    "old_price": 31000,
+    "category": "Пк Комплектующие",
+    "description": "Сокет:\r\nAM5\r\nКоличество ядер:\r\n8\r\nЧастота производительных ядер:\r\n4.2 ГГц - 5 ГГц\r\nКэш L3:\r\n96 МБ\r\nГрафика:\r\nAMD Radeon Graphics",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_19.jpg",
+    "photos": [
+      "static/products/product_19.jpg"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:11:54.951173"
+  },
+  {
+    "id": 20,
+    "name": "Процессор AMD Ryzen 5 5600 OEM",
+    "price": 11499,
+    "old_price": 13000,
+    "category": "Пк Комплектующие",
+    "description": "Сокет:\r\nAM4\r\nКоличество ядер:\r\n6\r\nЧастота производительных ядер:\r\n3.5 ГГц - 4.4 ГГц\r\nКэш L3:\r\n32 МБ\r\nТепловыделение:\r\n65 Вт",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "хит",
+    "image": "static/products/product_20.webp",
+    "photos": [
+      "static/products/product_20.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:14:50.374158"
+  },
+  {
+    "id": 21,
+    "name": "Процессор Intel Core i5-12400F OEM",
+    "price": 12599,
+    "old_price": 15000,
+    "category": "Пк Комплектующие",
+    "description": "Сокет:\r\nLGA 1700\r\nКоличество ядер:\r\n6\r\nЧастота производительных ядер:\r\n2.5 ГГц - 4.4 ГГц\r\nКэш L3:\r\n18 МБ\r\nТепловыделение:\r\n117 Вт",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_21.webp",
+    "photos": [
+      "static/products/product_21.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:21:52.011631"
+  },
+  {
+    "id": 22,
+    "name": "Процессор AMD Ryzen 5 5600X OEM",
+    "price": 12799,
+    "old_price": 13000,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nAM4\r\nКоличество ядер:\r\n6\r\nЧастота производительных ядер:\r\n3.7 ГГц - 4.6 ГГц\r\nКэш L3:\r\n32 МБ\r\nТепловыделение:\r\n65 Вт",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_22.webp",
+    "photos": [
+      "static/products/product_22.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:24:07.767576"
+  },
+  {
+    "id": 23,
+    "name": "Процессор AMD Ryzen 7 9700X OEM",
+    "price": 23399,
+    "old_price": 25500,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nAM5\r\nКоличество ядер:\r\n8\r\nЧастота производительных ядер:\r\n3.8 ГГц - 5.5 ГГц\r\nКэш L3:\r\n32 МБ\r\nГрафика:\r\nAMD Radeon Graphics",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_23.webp",
+    "photos": [
+      "static/products/product_23.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:25:45.738227"
+  },
+  {
+    "id": 24,
+    "name": "Материнская плата MSI MPG B550 GAMING PLUS",
+    "price": 11499,
+    "old_price": 16000,
+    "category": "Комплектующие для ПК",
+    "description": "Игровой товар1679842\r\nМатеринская плата MSI MPG B550 GAMING PLUS\r\nХит продаж\r\n4.81\r\n|\r\n4.5k отзывов\r\n 498\r\nХорошая надежность\r\nСокет:\r\nAM4\r\nФорм-фактор:\r\nStandard-ATX\r\nСлотов памяти:\r\n4, DDR4\r\nСлотов PCI-E x16:\r\n2\r\nПортов SATA:\r\n6",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_24.webp",
+    "photos": [
+      "static/products/product_24.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:28:52.681685"
+  },
+  {
+    "id": 25,
+    "name": "Материнская плата MSI MPG B850 EDGE TI WIFI",
+    "price": 29999,
+    "old_price": 35000,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nAM5\r\nФорм-фактор:\r\nStandard-ATX\r\nСлотов памяти:\r\n4, DDR5\r\nСлотов PCI-E x16:\r\n3\r\nПортов SATA:\r\n4",
+    "delivery": "сегодня",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_25.webp",
+    "photos": [
+      "static/products/product_25.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:30:19.943832"
+  },
+  {
+    "id": 26,
+    "name": "Материнская плата ASUS ROG STRIX Z790-A GAMING WIFI II",
+    "price": 47799,
+    "old_price": 49000,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nLGA 1700\r\nФорм-фактор:\r\nStandard-ATX\r\nСлотов памяти:\r\n4, DDR5\r\nСлотов PCI-E x16:\r\n2\r\nПортов SATA:\r\n4",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_26.webp",
+    "photos": [
+      "static/products/product_26.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:32:22.372659"
+  },
+  {
+    "id": 27,
+    "name": "Видеокарта MSI GeForce RTX 5070 Ti GAMING TRIO OC [RTX 5070 Ti 16G GAMING TRIO OC]",
+    "price": 119999,
+    "old_price": 13000,
+    "category": "Комплектующие для ПК",
+    "description": "Интерфейс:\r\nPCIe 5.0\r\nЧастота видеочипа:\r\nот 2300 МГц до 2715 МГц\r\nВидеопамять:\r\n16 ГБ GDDR7\r\nШина памяти:\r\n256 бит\r\nВидеоразъемы:\r\n3 x DisplayPort, HDMI",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_27.webp",
+    "photos": [
+      "static/products/product_27.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:34:14.011186"
+  },
+  {
+    "id": 28,
+    "name": "Видеокарта GIGABYTE GeForce RTX 5070 EAGLE OC ICE SFF [GV-N5070EAGLEOC ICE-12GD]",
+    "price": 6767,
+    "old_price": 67,
+    "category": "Комплектующие для ПК",
+    "description": "Интерфейс:\r\nPCIe 5.0\r\nЧастота видеочипа:\r\nот 2330 МГц до 2587 МГц\r\nВидеопамять:\r\n12 ГБ GDDR7\r\nШина памяти:\r\n192 бит\r\nВидеоразъемы:\r\n3 x DisplayPort, HDMI",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_28.webp",
+    "photos": [
+      "static/products/product_28.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:36:18.093660"
+  },
+  {
+    "id": 29,
+    "name": "Видеокарта Palit GeForce RTX 5070 Ti GamingPro-S OC [NE7507TS19T2-GB2031U]",
+    "price": 99999,
+    "old_price": 110000,
+    "category": "Комплектующие для ПК",
+    "description": "Интерфейс:\r\nPCIe 5.0\r\nЧастота видеочипа:\r\nот 2295 МГц до 2482 МГц\r\nВидеопамять:\r\n16 ГБ GDDR7\r\nШина памяти:\r\n256 бит\r\nВидеоразъемы:\r\n3 x DisplayPort, HDMI",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_29.webp",
+    "photos": [
+      "static/products/product_29.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:38:05.647941"
+  },
+  {
+    "id": 30,
+    "name": "Блок питания Montech TITAN PLA 1200W [TIX0126] белый",
+    "price": 18999,
+    "old_price": 20000,
+    "category": "Комплектующие для ПК",
+    "description": "Мощность:\r\n1200 Вт\r\nРазмеры вентиляторов:\r\n135 x 135 мм\r\nСертификат 80 PLUS:\r\nPlatinum",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_30.webp",
+    "photos": [
+      "static/products/product_30.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:39:25.609793"
+  },
+  {
+    "id": 31,
+    "name": "Блок питания LIAN LI EDGE 1000W White [G9P.EG1000.WE00.RU] белый",
+    "price": 13399,
+    "old_price": 20000,
+    "category": "Комплектующие для ПК",
+    "description": "Мощность:\r\n1000 Вт\r\nРазмеры вентиляторов:\r\n120 x 120 мм\r\nСертификат 80 PLUS:\r\nPlatinum",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_31.webp",
+    "photos": [
+      "static/products/product_31.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:41:54.735094"
+  },
+  {
+    "id": 32,
+    "name": "Блок питания ASUS ROG STRIX 1200W Platinum [90YE00W0-B0NA00] черный",
+    "price": 24199,
+    "old_price": 25670,
+    "category": "Комплектующие для ПК",
+    "description": "Мощность:\r\n1200 Вт\r\nРазмеры вентиляторов:\r\n135 x 135 мм\r\nСертификат 80 PLUS:\r\nPlatinum",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_32.webp",
+    "photos": [
+      "static/products/product_32.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:43:23.239911"
+  },
+  {
+    "id": 33,
+    "name": "Корпус LIAN LI O11 Dynamic EVO RGB [G99.O11DERGBX.R0] черный",
+    "price": 15999,
+    "old_price": 16000,
+    "category": "Комплектующие для ПК",
+    "description": "Форм-фактор плат:\r\nE-ATX, Micro-ATX, Mini-ITX, Standard-ATX\r\nТипоразмер:\r\nMid-Tower\r\nСлотов расширения:\r\n7\r\nИнтерфейсы:\r\nUSB 3.2 Gen 1 Type-A, USB 3.2 Gen 2 Type-C",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_33.webp",
+    "photos": [
+      "static/products/product_33.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:45:17.589219"
+  },
+  {
+    "id": 34,
+    "name": "Корпус LIAN LI V100 [G99.V100RW.R1] белый",
+    "price": 7499,
+    "old_price": 8900,
+    "category": "Комплектующие для ПК",
+    "description": "Форм-фактор плат:\r\nE-ATX, Micro-ATX, Mini-ITX, Standard-ATX\r\nТипоразмер:\r\nMid-Tower\r\nСлотов расширения:\r\n7\r\nВентиляторы:\r\n4 x 120 мм\r\nИнтерфейсы:\r\nUSB 3.2 Gen 1 Type-A, USB 3.2 Gen 1 Type-C",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_34.webp",
+    "photos": [
+      "static/products/product_34.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:46:36.603929"
+  },
+  {
+    "id": 35,
+    "name": "Корпус LIAN LI LANCOOL 217 INF [G99.LAN217INFX.10R] черный",
+    "price": 11399,
+    "old_price": 12900,
+    "category": "Комплектующие для ПК",
+    "description": "Форм-фактор плат:\r\nE-ATX, Micro-ATX, Mini-ITX, SSI-EEB\r\nТипоразмер:\r\nMid-Tower\r\nСлотов расширения:\r\n7\r\nВентиляторы:\r\n1 x 140 мм, 2 x 170 мм\r\nИнтерфейсы:\r\nUSB 3.2 Gen 1 Type-A, USB 3.2 Gen 2 Type-C",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_35.webp",
+    "photos": [
+      "static/products/product_35.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:48:02.817214"
+  },
+  {
+    "id": 36,
+    "name": "Корпус LIAN LI LANCOOL 217 INF [G99.LAN217INFW.10R] белый",
+    "price": 11899,
+    "old_price": 12800,
+    "category": "Комплектующие для ПК",
+    "description": "Форм-фактор плат:\r\nE-ATX, Micro-ATX, Mini-ITX, SSI-EEB\r\nТипоразмер:\r\nMid-Tower\r\nСлотов расширения:\r\n7\r\nВентиляторы:\r\n1 x 140 мм, 2 x 170 мм\r\nИнтерфейсы:\r\nUSB 3.2 Gen 1 Type-A, USB 3.2 Gen 2 Type-C",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_36.webp",
+    "photos": [
+      "static/products/product_36.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:49:07.669024"
+  },
+  {
+    "id": 37,
+    "name": "Система охлаждения LIAN LI GALAHAD II TRINITY 360 SL-INF белая",
+    "price": 12999,
+    "old_price": 13900,
+    "category": "Комплектующие для ПК",
+    "description": "Размер радиатора:\r\n120 мм - три секции\r\nМатериал радиатора:\r\nалюминий\r\nРазмеры вентиляторов:\r\n120 x 120 мм\r\nСокет:\r\nAM4, AM5, LGA 1150, LGA 1151",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_37.webp",
+    "photos": [
+      "static/products/product_37.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:50:23.899868"
+  },
+  {
+    "id": 38,
+    "name": "Система охлаждения ASUS ROG RYUJIN III 360 ARGB Extreme черная",
+    "price": 37799,
+    "old_price": 38900,
+    "category": "Комплектующие для ПК",
+    "description": "Размер радиатора:\r\n120 мм - три секции\r\nМатериал радиатора:\r\nалюминий\r\nРазмеры вентиляторов:\r\n120 x 120 мм\r\nСокет:\r\nAM4, AM5, LGA 1150, LGA 1151",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_38.webp",
+    "photos": [
+      "static/products/product_38.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:52:21.498495"
+  },
+  {
+    "id": 39,
+    "name": "Система охлаждения TRYX PANORAMA SE ARGB 360 белая",
+    "price": 29799,
+    "old_price": 35000,
+    "category": "Комплектующие для ПК",
+    "description": "Размер радиатора:\r\n120 мм - три секции\r\nМатериал радиатора:\r\nалюминий\r\nРазмеры вентиляторов:\r\n120 x 120 мм\r\nСокет:\r\nAM4, AM5, LGA 1150, LGA 1151",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_39.webp",
+    "photos": [
+      "static/products/product_39.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:53:31.745185"
+  },
+  {
+    "id": 40,
+    "name": "Система охлаждения ASUS ROG RYUJIN III 360 ARGB Extreme белая",
+    "price": 43499,
+    "old_price": 45670,
+    "category": "Комплектующие для ПК",
+    "description": "Размер радиатора:\r\n120 мм - три секции\r\nМатериал радиатора:\r\nалюминий\r\nРазмеры вентиляторов:\r\n120 x 120 мм\r\nСокет:\r\nAM4, AM5, LGA 1150, LGA 1151",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_40.webp",
+    "photos": [
+      "static/products/product_40.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:56:12.905995"
+  },
+  {
+    "id": 41,
+    "name": "Оперативная память ADATA XPG Lancer Blade [AX5U6000C3016G-DTLABWH] 32 ГБ",
+    "price": 48999,
+    "old_price": 59000,
+    "category": "Комплектующие для ПК",
+    "description": "Тип памяти:\r\nDDR5\r\nОбъем памяти:\r\n2 шт х 16 ГБ\r\nЧастота:\r\n6000 МГц\r\nТайминги:\r\n30 - 40 - 40",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_41.webp",
+    "photos": [
+      "static/products/product_41.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:57:42.346663"
+  },
+  {
+    "id": 42,
+    "name": "Оперативная память G.Skill Trident Z5 Royal Neo [F5-6400J3039G16GX2-TR5NS] 32 ГБ",
+    "price": 54999,
+    "old_price": 60000,
+    "category": "Комплектующие для ПК",
+    "description": "Тип памяти:\r\nDDR5\r\nОбъем памяти:\r\n2 шт х 16 ГБ\r\nЧастота:\r\n6400 МГц\r\nТайминги:\r\n30 - 39 - 39 - 102",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_42.webp",
+    "photos": [
+      "static/products/product_42.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T22:59:13.055772"
+  },
+  {
+    "id": 43,
+    "name": "Оперативная память ADATA XPG Lancer Blade RGB [AX5U6000C3032G-DTLABRBK] 64 ГБ",
+    "price": 89999,
+    "old_price": 100000,
+    "category": "Комплектующие для ПК",
+    "description": "Тип памяти:\r\nDDR5\r\nОбъем памяти:\r\n2 шт х 32 ГБ\r\nЧастота:\r\n6000 МГц\r\nТайминги:\r\n30 - 40 - 40",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_43.webp",
+    "photos": [
+      "static/products/product_43.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:00:20.694369"
+  },
+  {
+    "id": 44,
+    "name": "4000 ГБ M.2 NVMe накопитель Samsung 990 PRO [MZ-V9P4T0BW]",
+    "price": 55999,
+    "old_price": 60000,
+    "category": "Комплектующие для ПК",
+    "description": "Форм-фактор:\r\n2280\r\nОбъем накопителя:\r\n4000 ГБ\r\nКлюч M.2 разъема:\r\nM\r\nМаксимальный ресурс записи (TBW):\r\n2400 ТБ",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_44.webp",
+    "photos": [
+      "static/products/product_44.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:02:52.273400"
+  },
+  {
+    "id": 45,
+    "name": "Кулер для процессора DEEPCOOL AG620 BK ARGB V2 [R-AG620-BKAMMN-GJD] черный",
+    "price": 4199,
+    "old_price": 5000,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nAM4, AM5, LGA 1700, LGA 1851\r\nРазмеры вентилятора:\r\n120 x 120 мм\r\nТепловые трубки:\r\n6 x 6 мм\r\nСкорость вращения:\r\n300 об/мин - 1950 об/мин\r\nУровень шума:\r\nдо 29.4 дБ",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_45.webp",
+    "photos": [
+      "static/products/product_45.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:05:30.897653"
+  },
+  {
+    "id": 46,
+    "name": "Кулер для процессора ID-COOLING FROZN A620 ARGB WHITE белый",
+    "price": 4499,
+    "old_price": 6000,
+    "category": "Комплектующие для ПК",
+    "description": "Сокет:\r\nAM4, AM5, LGA 1700, LGA 1851\r\nРазмеры вентилятора:\r\n120 x 120 мм\r\nТепловые трубки:\r\n6 x 6 мм\r\nСкорость вращения:\r\n500 об/мин - 2000 об/мин\r\nУровень шума:\r\nдо 29.9 дБ",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_46.webp",
+    "photos": [
+      "static/products/product_46.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:06:31.094764"
+  },
+  {
+    "id": 47,
+    "name": "Вентилятор LIAN LI UNI FAN SL Infinity 120 [G99.12SLIN1W.R0] белый",
+    "price": 1899,
+    "old_price": 2000,
+    "category": "Комплектующие для ПК",
+    "description": "Размер вентилятора:\r\n122.1 x 120 мм\r\nТип подсветки:\r\nARGB\r\nСкорость вращения:\r\nдо 2100 об/мин\r\nЦвет:\r\nбелый\r\nТип подшипника:\r\nскольжения (гидродинамический)",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_47.webp",
+    "photos": [
+      "static/products/product_47.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:08:04.195895"
+  },
+  {
+    "id": 48,
+    "name": "Комплект реверсных вентиляторов LIAN LI UNI FAN SL-INF WIRELESS 120 Reversed Blade [G99.12RSLIN1W3W.R0] белый",
+    "price": 8099,
+    "old_price": 10000,
+    "category": "Комплектующие для ПК",
+    "description": "Размер вентилятора:\r\n122.1 x 120 мм\r\nТип подсветки:\r\nARGB\r\nСкорость вращения:\r\nдо 2200 об/мин\r\nЦвет:\r\nбелый\r\nКоличество в комплекте:\r\n3",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_48.webp",
+    "photos": [
+      "static/products/product_48.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:08:55.462247"
+  },
+  {
+    "id": 49,
+    "name": "Вентилятор LIAN LI UNI FAN TL LCD WIRELESS 120-1 [G99.12TLLCD1W1W.R0] белый",
+    "price": 3999,
+    "old_price": 4500,
+    "category": "Комплектующие для ПК",
+    "description": "Размер вентилятора:\r\n124 x 120 мм\r\nТип подсветки:\r\nARGB\r\nСкорость вращения:\r\nот 350 об/мин до 1900 об/мин\r\nЦвет:\r\nбелый\r\nТип подшипника:\r\nскольжения (гидродинамический)",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_49.webp",
+    "photos": [
+      "static/products/product_49.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:10:24.752788"
+  },
+  {
+    "id": 50,
+    "name": "Аэрогриль электрический 8 литров Гриль ,12 программ",
+    "price": 5755,
+    "old_price": 31000,
+    "category": "Электроника",
+    "description": "Основная информация\r\nЦвет\r\nсеребристо-черный\r\nОбщие характеристики\r\nОбъем (л)\r\n8 л\r\nКоличество программ\r\n12 шт.\r\nОсобенности аэрогриля\r\nВыпечка; гриль; жарка; Разморозка\r\nМодель\r\nаэрогриль\r\nГарантийный срок\r\n1 год\r\nПитание\r\nМощность устройства (Вт)\r\n2000 Вт\r\nДлина кабеля (м)\r\n0.75\r\nУправление\r\nУправление\r\nLED сенсорный\r\nТехнические особенности\r\nТип нагревательного элемента\r\nТЭН\r\nМатериалы\r\nМатериал корпуса\r\nPP/PA/ABS/PC, Стекло Силикон SUS430\r\nДополнительная информация\r\nПрограммы приготовления\r\nкуриные ножки; Стейк, Рыба; выпечка, пицца; сосиски, картофель фри; бекон\r\nДоп. опции прибора\r\nантипригарное покрытие; дисплей; легкая очистка; защита от перегрева\r\nПокрытие чаши\r\nтефлоновое\r\nСтрана производства\r\nКитай\r\nКомплектация\r\nИнструкция по эксплуатации *1; Корпус чаши *1; Камера для приготовления *1; Разделительная пластина *1; Кабель питания *1; Книга рецептов *1\r\nСрок эксплуатации\r\n10\r\nГабариты\r\nВес с упаковкой (кг)\r\n5.7 кг\r\nВысота предмета\r\n31 см\r\nГлубина предмета\r\n27.2 см\r\nШирина предмета\r\n28 см",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_50.webp",
+    "photos": [
+      "static/products/product_50.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:17:43.526071"
+  },
+  {
+    "id": 51,
+    "name": "Смартфон X7d 8+256, Вельветовый черный",
+    "price": 14500,
+    "old_price": 20000,
+    "category": "Смартфоны",
+    "description": "HONOR X7d — удобный и современный смартфон, который никогда не подведет. В HONOR X7d установлен 8-ядерный процессор, обеспечивающим плавную работу всех приложений и игр. Двойная SIM-карта позволяет использовать сразу два номера. В смартфоне работают все гугл сервисы и google play. Благодаря поддержке Wi-Fi, Bluetooth и NFC, вы всегда сможете оставаться на связи и совершать бесконтактные платежи. Спутниковая навигация GPS, ГЛОНАСС и BeiDou поможет вам легко ориентироваться в незнакомых местах.",
+    "delivery": "после завтра",
+    "rating": 4.8,
+    "reviews_count": 0,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_51.webp",
+    "photos": [
+      "static/products/product_51.webp"
+    ],
+    "videos": [],
+    "vendor_id": "unknown",
+    "created_at": "2026-07-03T23:20:01.643857"
+  },
+  {
+    "id": 52,
+    "name": "Беспроводная мышка Logitech Pro",
+    "price": 2990,
+    "old_price": 4590,
+    "category": "Компьютерные аксессуары",
+    "description": "Легкая беспроводная мышь с точным сенсором для учебы, работы и игр.",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 1280,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_52.png",
+    "photos": [
+      "static/products/product_52.png"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Игровая клавиатура Mechanical RGB",
+    "price": 7490,
+    "old_price": 10390,
+    "category": "Компьютерные аксессуары",
+    "description": "Полноразмерная клавиатура с RGB-подсветкой и приятным ходом клавиш.",
+    "delivery": "Сегодня",
+    "rating": 4.9,
+    "reviews_count": 2140,
+    "stock": "В наличии",
+    "badge": "Новинка",
+    "image": "static/products/product_53.png",
+    "photos": [
+      "static/products/product_53.png"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Монитор LG UltraWide 45 OLED",
+    "price": 44990,
+    "old_price": 59990,
+    "category": "Электроника",
+    "description": "Широкий OLED-монитор для игр, монтажа, дизайна и комфортной работы.",
+    "delivery": "2 дня",
+    "rating": 4.9,
+    "reviews_count": 860,
+    "stock": "В наличии",
+    "badge": "Premium",
+    "image": "static/products/product_54.png",
+    "photos": [
+      "static/products/product_54.png"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Портативный SSD 2TB",
+    "price": 11990,
+    "old_price": 19990,
+    "category": "Компьютерные аксессуары",
+    "description": "Внешний SSD для быстрых резервных копий, учебных проектов и видео.",
+    "delivery": "Завтра",
+    "rating": 4.8,
+    "reviews_count": 940,
+    "stock": "В наличии",
+    "badge": "Скидка",
+    "image": "static/products/product_55.png",
+    "photos": [
+      "static/products/product_55.png"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Смарт-часы Quantum Pro",
+    "price": 18990,
+    "old_price": 32990,
+    "category": "Электроника",
+    "description": "Современные смарт-часы с ярким экраном, уведомлениями и спортивными режимами.",
+    "delivery": "Сегодня",
+    "rating": 4.9,
+    "reviews_count": 1520,
+    "stock": "В наличии",
+    "badge": "Хит",
+    "image": "static/products/product_56.jpeg",
+    "photos": [
+      "static/products/product_56.jpeg"
+    ]
+  }
+]
