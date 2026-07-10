@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketHub — маркетплейс нового поколения</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="static/branding/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="static/branding/favicon-192.png" />
+    <link rel="apple-touch-icon" href="static/branding/favicon-180.png" />
+    <link rel="shortcut icon" href="static/branding/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style_final_large_images.css" />
+  </head>
+  <body>
+    <div class="ambient ambient--one"></div>
+    <div class="ambient ambient--two"></div>
+    <header class="topbar glass-panel">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="static/branding/markethub-logo.png" alt="Логотип MarketHub" />
+        <span>MarketHub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="">Главная</a>
+        <a href="catalog.html" class="">Каталог</a>
+        <a href="deals.html" class="active">Акции</a>
+        <a href="recommendations.html" class="">Рекомендации</a>
+        <a href="reviews.html" class="">Отзывы</a>
+        <a href="orders.html" class="">Заказы</a>
+        <a href="settings.html" class="">Настройки</a>
+        <a href="help.html" class="">Справка</a>
+        <a href="about.html" class="">О нас</a>
+        <a href="vendor_portal.html" class="">Селлерам</a>
+        <a href="favorites.html" class="nav-link--accent ">♥</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-box" action="catalog.html" method="get">
+          <input type="search" name="q" placeholder="Искать товары" value="" />
+          <button type="submit">Найти</button>
+        </form>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Сменить тему"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><span class="theme-toggle__sun">☀</span><span class="theme-toggle__moon">☾</span></span></span></button>
+        <a class="cart-link" href="cart.html">
+          <span>🛒</span>
+          <span class="cart-link__count" id="cartCount">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+<section class="section">
+  <div class="section__header">
+    <h2>Акции и спецпредложения</h2>
+    <span class="pill">Лучшие предложения и ограниченные скидки</span>
+  </div>
+
+  <div class="deals-banner glass-panel">
+    <div class="banner-content">
+      <h2>🔥 ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</h2>
+      <p>Скидки до 50% на избранные товары. Спешите, товар ограничен!</p>
+      <button class="button button--primary">Смотреть все акции</button>
+    </div>
+  </div>
+
+  <div class="deals-grid">
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-35%</div>
+      <img src="static/products/product_9.png" alt="Наушники"/>
+      <div class="deal-content">
+        <h3>Наушники Nova Wireless</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">6,190 ₽</span>
+          <span class="deal-price-new">3,990 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 24 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-42%</div>
+      <img src="static/products/product_56.jpeg" alt="Часы"/>
+      <div class="deal-content">
+        <h3>Смарт-часы Quantum Pro</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">32,990 ₽</span>
+          <span class="deal-price-new">18,990 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 8 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 45%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-28%</div>
+      <img src="static/products/product_53.png" alt="Клавиатура"/>
+      <div class="deal-content">
+        <h3>Клавиатура Mechanical RGB</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">10,390 ₽</span>
+          <span class="deal-price-new">7,490 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 156 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-50%</div>
+      <img src="static/products/product_52.png" alt="Мышка"/>
+      <div class="deal-content">
+        <h3>Беспроводная мышка Pro</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">5,980 ₽</span>
+          <span class="deal-price-new">2,990 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 3 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 15%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-25%</div>
+      <img src="static/products/product_54.png" alt="Монитор"/>
+      <div class="deal-content">
+        <h3>Монитор 4K UltraWide</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">59,990 ₽</span>
+          <span class="deal-price-new">44,990 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 12 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+
+    <div class="deal-card glass-panel">
+      <div class="deal-badge">-40%</div>
+      <img src="static/products/product_55.png" alt="SSD"/>
+      <div class="deal-content">
+        <h3>Портативный SSD 2TB</h3>
+        <div class="deal-prices">
+          <span class="deal-price-old">19,990 ₽</span>
+          <span class="deal-price-new">11,990 ₽</span>
+        </div>
+        <div class="deal-info">
+          <span class="deal-stock">Осталось 34 шт</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <button class="button button--primary button--small">В корзину</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="deals-promo glass-panel">
+    <h3>📅 Приходящие акции</h3>
+    <div class="promo-list">
+      <div class="promo-item">
+        <span class="promo-date">5 июля</span>
+        <span class="promo-title">День Электроники — скидки до 60%</span>
+        <button class="button button--secondary button--small">Уведомить</button>
+      </div>
+      <div class="promo-item">
+        <span class="promo-date">12 июля</span>
+        <span class="promo-title">Мегапраздник — два товара дешевле</span>
+        <button class="button button--secondary button--small">Уведомить</button>
+      </div>
+      <div class="promo-item">
+        <span class="promo-date">20 июля</span>
+        <span class="promo-title">День рождения MarketHub — особые скидки</span>
+        <button class="button button--secondary button--small">Уведомить</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+    <footer class="footer">
+      <p>MarketHub © 2026 • Удобный онлайн-маркетплейс с быстрым оформлением и доставкой.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>

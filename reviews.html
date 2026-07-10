@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketHub — маркетплейс нового поколения</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="static/branding/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="static/branding/favicon-192.png" />
+    <link rel="apple-touch-icon" href="static/branding/favicon-180.png" />
+    <link rel="shortcut icon" href="static/branding/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style_final_large_images.css" />
+  </head>
+  <body>
+    <div class="ambient ambient--one"></div>
+    <div class="ambient ambient--two"></div>
+    <header class="topbar glass-panel">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="static/branding/markethub-logo.png" alt="Логотип MarketHub" />
+        <span>MarketHub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="">Главная</a>
+        <a href="catalog.html" class="">Каталог</a>
+        <a href="deals.html" class="">Акции</a>
+        <a href="recommendations.html" class="">Рекомендации</a>
+        <a href="reviews.html" class="active">Отзывы</a>
+        <a href="orders.html" class="">Заказы</a>
+        <a href="settings.html" class="">Настройки</a>
+        <a href="help.html" class="">Справка</a>
+        <a href="about.html" class="">О нас</a>
+        <a href="vendor_portal.html" class="">Селлерам</a>
+        <a href="favorites.html" class="nav-link--accent ">♥</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-box" action="catalog.html" method="get">
+          <input type="search" name="q" placeholder="Искать товары" value="" />
+          <button type="submit">Найти</button>
+        </form>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Сменить тему"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><span class="theme-toggle__sun">☀</span><span class="theme-toggle__moon">☾</span></span></span></button>
+        <a class="cart-link" href="cart.html">
+          <span>🛒</span>
+          <span class="cart-link__count" id="cartCount">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+<section class="container py-4 py-lg-5">
+  <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-3 mb-4">
+    <div>
+      <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis mb-3">Отзывы покупателей</span>
+      <h1 class="display-6 fw-bold mb-2">Отзывы и рейтинги</h1>
+      <p class="text-muted mb-0">Надёжные покупки, честные впечатления и реальные оценки товаров от покупателей.</p>
+    </div>
+    <div class="d-flex flex-wrap gap-2">
+      <span class="badge rounded-pill bg-success-subtle text-success-emphasis px-3 py-2">⭐ 4.8/5 средний рейтинг</span>
+      <span class="badge rounded-pill bg-info-subtle text-info-emphasis px-3 py-2">✓ 94% проверенных покупок</span>
+    </div>
+  </div>
+
+  <div class="row g-4 align-items-start">
+    <aside class="col-lg-3">
+      <div class="card-soft rounded-4 p-4 h-100">
+        <h3 class="h5 fw-semibold mb-3">Фильтры</h3>
+        <div class="mb-3">
+          <label class="form-label fw-semibold">Сортировать по</label>
+          <select class="form-select" id="sortReviews">
+            <option value="recent">Новые</option>
+            <option value="helpful">Полезные</option>
+            <option value="rating-high">Высокий рейтинг</option>
+            <option value="rating-low">Низкий рейтинг</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label fw-semibold">Рейтинг</label>
+          <div class="d-flex flex-column gap-2">
+            <label class="form-check"><input class="form-check-input" type="checkbox" value="5" /> <span class="ms-2">★★★★★ (5)</span></label>
+            <label class="form-check"><input class="form-check-input" type="checkbox" value="4" /> <span class="ms-2">★★★★☆ (4)</span></label>
+            <label class="form-check"><input class="form-check-input" type="checkbox" value="3" /> <span class="ms-2">★★★☆☆ (3)</span></label>
+            <label class="form-check"><input class="form-check-input" type="checkbox" value="2" /> <span class="ms-2">★★☆☆☆ (2)</span></label>
+            <label class="form-check"><input class="form-check-input" type="checkbox" value="1" /> <span class="ms-2">★☆☆☆☆ (1)</span></label>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="col-lg-9">
+      <div class="row g-3 mb-4">
+        <div class="col-md-4">
+          <div class="card-soft rounded-4 p-4 text-center">
+            <div class="text-muted small">Средний рейтинг</div>
+            <div class="display-6 fw-bold text-primary">4.8</div>
+            <div class="text-muted small">из 5.0</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-soft rounded-4 p-4 text-center">
+            <div class="text-muted small">Всего отзывов</div>
+            <div class="display-6 fw-bold text-primary">2847</div>
+            <div class="text-muted small">+ 142 на этой неделе</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-soft rounded-4 p-4 text-center">
+            <div class="text-muted small">Рекомендуют товар</div>
+            <div class="display-6 fw-bold text-primary">91%</div>
+            <div class="text-muted small">других покупателей</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column gap-3">
+        
+        <article class="card-soft rounded-4 p-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between gap-2 mb-3">
+            <div>
+              <h3 class="h5 fw-semibold mb-1">Смарт-часы Quantum Pro</h3>
+              <div class="text-warning">★★★★★</div>
+            </div>
+            <span class="text-muted small">5 дн. назад</span>
+          </div>
+          <p class="mb-3 text-secondary">Отличные часы: батарея держит неделю, а интерфейс очень понятный. Я уже рекомендовал их друзьям.</p>
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 border-top pt-3 mt-2">
+            <button class="btn btn-sm btn-outline-primary">👍 Полезно (24)</button>
+            <span class="text-muted small">от Иван К.</span>
+          </div>
+        </article>
+        
+        <article class="card-soft rounded-4 p-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between gap-2 mb-3">
+            <div>
+              <h3 class="h5 fw-semibold mb-1">Наушники Nova Wireless</h3>
+              <div class="text-warning">★★★★☆</div>
+            </div>
+            <span class="text-muted small">1 неделю назад</span>
+          </div>
+          <p class="mb-3 text-secondary">Очень чистый звук и удобная посадка. В метро ловит немного помех, но за такую цену это мелочь.</p>
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 border-top pt-3 mt-2">
+            <button class="btn btn-sm btn-outline-primary">👍 Полезно (18)</button>
+            <span class="text-muted small">от Мария П.</span>
+          </div>
+        </article>
+        
+        <article class="card-soft rounded-4 p-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between gap-2 mb-3">
+            <div>
+              <h3 class="h5 fw-semibold mb-1">Монитор 4K UltraWide</h3>
+              <div class="text-warning">★★★★★</div>
+            </div>
+            <span class="text-muted small">2 недели назад</span>
+          </div>
+          <p class="mb-3 text-secondary">Невероятно удобно для работы и игр. Цвета насыщенные, а картинка выглядит очень дорого.</p>
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 border-top pt-3 mt-2">
+            <button class="btn btn-sm btn-outline-primary">👍 Полезно (42)</button>
+            <span class="text-muted small">от Алексей Л.</span>
+          </div>
+        </article>
+        
+        <article class="card-soft rounded-4 p-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between gap-2 mb-3">
+            <div>
+              <h3 class="h5 fw-semibold mb-1">Рюкзак City Move</h3>
+              <div class="text-warning">★★★★★</div>
+            </div>
+            <span class="text-muted small">3 недели назад</span>
+          </div>
+          <p class="mb-3 text-secondary">Прочный, аккуратный и очень практичный. Вмещает ноутбук, зарядку и всё необходимое для поездок.</p>
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 border-top pt-3 mt-2">
+            <button class="btn btn-sm btn-outline-primary">👍 Полезно (15)</button>
+            <span class="text-muted small">от Светлана Р.</span>
+          </div>
+        </article>
+        
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+    <footer class="footer">
+      <p>MarketHub © 2026 • Удобный онлайн-маркетплейс с быстрым оформлением и доставкой.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>

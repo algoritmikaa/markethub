@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketHub — маркетплейс нового поколения</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="static/branding/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="static/branding/favicon-192.png" />
+    <link rel="apple-touch-icon" href="static/branding/favicon-180.png" />
+    <link rel="shortcut icon" href="static/branding/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style_final_large_images.css" />
+  </head>
+  <body>
+    <div class="ambient ambient--one"></div>
+    <div class="ambient ambient--two"></div>
+    <header class="topbar glass-panel">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="static/branding/markethub-logo.png" alt="Логотип MarketHub" />
+        <span>MarketHub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Главная</a>
+        <a href="catalog.html" class="">Каталог</a>
+        <a href="deals.html" class="">Акции</a>
+        <a href="recommendations.html" class="">Рекомендации</a>
+        <a href="reviews.html" class="">Отзывы</a>
+        <a href="orders.html" class="">Заказы</a>
+        <a href="settings.html" class="">Настройки</a>
+        <a href="help.html" class="">Справка</a>
+        <a href="about.html" class="">О нас</a>
+        <a href="vendor_portal.html" class="">Селлерам</a>
+        <a href="favorites.html" class="nav-link--accent ">♥</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-box" action="catalog.html" method="get">
+          <input type="search" name="q" placeholder="Искать товары" value="" />
+          <button type="submit">Найти</button>
+        </form>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Сменить тему"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><span class="theme-toggle__sun">☀</span><span class="theme-toggle__moon">☾</span></span></span></button>
+        <a class="cart-link" href="cart.html">
+          <span>🛒</span>
+          <span class="cart-link__count" id="cartCount">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+<section class="hero">
+  <div class="hero__copy">
+    <span class="eyebrow">Маркетплейс нового уровня</span>
+    <h1>Откройте всё самое нужное в одном магазине.</h1>
+    <p>Быстрая доставка, честные цены, персональные рекомендации и удобный поиск — всё для вашей покупки за несколько минут.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="catalog.html">Перейти в каталог</a>
+      <a class="button button--secondary" href="about.html">Узнать о нас</a>
+    </div>
+    <div class="stats-row">
+      <div>
+        <strong>100k+</strong>
+        <span>товаров</span>
+      </div>
+      <div>
+        <strong>24/7</strong>
+        <span>поддержка</span>
+      </div>
+      <div>
+        <strong>4.9/5</strong>
+        <span>оценка сервиса</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__card">
+    <h3>Сегодня в тренде</h3>
+    <ul>
+      <li>Беспроводные наушники</li>
+      <li>Умный дом и техника</li>
+      <li>Подарочные наборы для дома</li>
+    </ul>
+    <div class="offer-pill">Скидки до 40% в подборке</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__header">
+    <h2>Рекомендуем сегодня</h2>
+    <a href="catalog.html">Открыть каталог</a>
+  </div>
+  <div class="products-grid">
+
+    <article class="product-card glass-panel compact-product-card" data-name="смарт-колонка aura max" data-category="Электроника" data-price="12990" data-rating="4.9">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_1.png" alt="Смарт-колонка Aura Max" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Хит</span>
+        <span class="rating">★ 4.9</span>
+      </div>
+      <h3 class="gradient-text">Смарт-колонка Aura Max</h3>
+      <p>Мощный звук, голосовой помощник и стильная подсветка для рабочего стола.</p>
+      <div class="product-card__meta">
+        <span>Электроника</span>
+        <span>Сегодня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>12990 ₽</strong>
+          
+          <span class="old-price">15990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 1, &#34;name&#34;: &#34;Смарт-колонка Aura Max&#34;, &#34;price&#34;: 12990, &#34;old_price&#34;: 15990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Мощный звук, голосовой помощник и стильная подсветка для рабочего стола.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_1.png&#34;, &#34;photos&#34;: [&#34;static/products/product_1.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 1, &#34;name&#34;: &#34;Смарт-колонка Aura Max&#34;, &#34;price&#34;: 12990, &#34;old_price&#34;: 15990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Мощный звук, голосовой помощник и стильная подсветка для рабочего стола.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_1.png&#34;, &#34;photos&#34;: [&#34;static/products/product_1.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 1, &#34;name&#34;: &#34;Смарт-колонка Aura Max&#34;, &#34;price&#34;: 12990, &#34;old_price&#34;: 15990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Мощный звук, голосовой помощник и стильная подсветка для рабочего стола.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_1.png&#34;, &#34;photos&#34;: [&#34;static/products/product_1.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="плед infinity warm" data-category="Дом и уют" data-price="4990" data-rating="4.8">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_2.png" alt="Плед Infinity Warm" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Уют</span>
+        <span class="rating">★ 4.8</span>
+      </div>
+      <h3 class="gradient-text">Плед Infinity Warm</h3>
+      <p>Мягкий теплый плед для дома, отдыха и уютных вечеров.</p>
+      <div class="product-card__meta">
+        <span>Дом и уют</span>
+        <span>Завтра</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>4990 ₽</strong>
+          
+          <span class="old-price">6990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 2, &#34;name&#34;: &#34;Плед Infinity Warm&#34;, &#34;price&#34;: 4990, &#34;old_price&#34;: 6990, &#34;category&#34;: &#34;Дом и уют&#34;, &#34;description&#34;: &#34;Мягкий теплый плед для дома, отдыха и уютных вечеров.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Уют&#34;, &#34;image&#34;: &#34;static/products/product_2.png&#34;, &#34;photos&#34;: [&#34;static/products/product_2.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 2, &#34;name&#34;: &#34;Плед Infinity Warm&#34;, &#34;price&#34;: 4990, &#34;old_price&#34;: 6990, &#34;category&#34;: &#34;Дом и уют&#34;, &#34;description&#34;: &#34;Мягкий теплый плед для дома, отдыха и уютных вечеров.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Уют&#34;, &#34;image&#34;: &#34;static/products/product_2.png&#34;, &#34;photos&#34;: [&#34;static/products/product_2.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 2, &#34;name&#34;: &#34;Плед Infinity Warm&#34;, &#34;price&#34;: 4990, &#34;old_price&#34;: 6990, &#34;category&#34;: &#34;Дом и уют&#34;, &#34;description&#34;: &#34;Мягкий теплый плед для дома, отдыха и уютных вечеров.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Уют&#34;, &#34;image&#34;: &#34;static/products/product_2.png&#34;, &#34;photos&#34;: [&#34;static/products/product_2.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="рюкзак city move" data-category="Аксессуары" data-price="7590" data-rating="4.7">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_3.jpg" alt="Рюкзак City Move" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Практично</span>
+        <span class="rating">★ 4.7</span>
+      </div>
+      <h3 class="gradient-text">Рюкзак City Move</h3>
+      <p>Легкий складной рюкзак для учебы, прогулок и поездок.</p>
+      <div class="product-card__meta">
+        <span>Аксессуары</span>
+        <span>Сегодня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>7590 ₽</strong>
+          
+          <span class="old-price">8990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 3, &#34;name&#34;: &#34;Рюкзак City Move&#34;, &#34;price&#34;: 7590, &#34;old_price&#34;: 8990, &#34;category&#34;: &#34;Аксессуары&#34;, &#34;description&#34;: &#34;Легкий складной рюкзак для учебы, прогулок и поездок.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.7, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Практично&#34;, &#34;image&#34;: &#34;static/products/product_3.jpg&#34;, &#34;photos&#34;: [&#34;static/products/product_3.jpg&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 3, &#34;name&#34;: &#34;Рюкзак City Move&#34;, &#34;price&#34;: 7590, &#34;old_price&#34;: 8990, &#34;category&#34;: &#34;Аксессуары&#34;, &#34;description&#34;: &#34;Легкий складной рюкзак для учебы, прогулок и поездок.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.7, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Практично&#34;, &#34;image&#34;: &#34;static/products/product_3.jpg&#34;, &#34;photos&#34;: [&#34;static/products/product_3.jpg&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 3, &#34;name&#34;: &#34;Рюкзак City Move&#34;, &#34;price&#34;: 7590, &#34;old_price&#34;: 8990, &#34;category&#34;: &#34;Аксессуары&#34;, &#34;description&#34;: &#34;Легкий складной рюкзак для учебы, прогулок и поездок.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.7, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Практично&#34;, &#34;image&#34;: &#34;static/products/product_3.jpg&#34;, &#34;photos&#34;: [&#34;static/products/product_3.jpg&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="ланч-бокс bento set" data-category="Товары для дома" data-price="3490" data-rating="4.6">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_4.png" alt="Ланч-бокс Bento Set" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Топ</span>
+        <span class="rating">★ 4.6</span>
+      </div>
+      <h3 class="gradient-text">Ланч-бокс Bento Set</h3>
+      <p>Компактный набор для еды с аккуратными отделениями.</p>
+      <div class="product-card__meta">
+        <span>Товары для дома</span>
+        <span>2 дня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>3490 ₽</strong>
+          
+          <span class="old-price">4590 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 4, &#34;name&#34;: &#34;Ланч-бокс Bento Set&#34;, &#34;price&#34;: 3490, &#34;old_price&#34;: 4590, &#34;category&#34;: &#34;Товары для дома&#34;, &#34;description&#34;: &#34;Компактный набор для еды с аккуратными отделениями.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.6, &#34;stock&#34;: &#34;Под заказ&#34;, &#34;badge&#34;: &#34;Топ&#34;, &#34;image&#34;: &#34;static/products/product_4.png&#34;, &#34;photos&#34;: [&#34;static/products/product_4.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 4, &#34;name&#34;: &#34;Ланч-бокс Bento Set&#34;, &#34;price&#34;: 3490, &#34;old_price&#34;: 4590, &#34;category&#34;: &#34;Товары для дома&#34;, &#34;description&#34;: &#34;Компактный набор для еды с аккуратными отделениями.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.6, &#34;stock&#34;: &#34;Под заказ&#34;, &#34;badge&#34;: &#34;Топ&#34;, &#34;image&#34;: &#34;static/products/product_4.png&#34;, &#34;photos&#34;: [&#34;static/products/product_4.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 4, &#34;name&#34;: &#34;Ланч-бокс Bento Set&#34;, &#34;price&#34;: 3490, &#34;old_price&#34;: 4590, &#34;category&#34;: &#34;Товары для дома&#34;, &#34;description&#34;: &#34;Компактный набор для еды с аккуратными отделениями.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.6, &#34;stock&#34;: &#34;Под заказ&#34;, &#34;badge&#34;: &#34;Топ&#34;, &#34;image&#34;: &#34;static/products/product_4.png&#34;, &#34;photos&#34;: [&#34;static/products/product_4.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="фитнес-браслет pulse lite" data-category="Электроника" data-price="5990" data-rating="4.9">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_5.png" alt="Фитнес-браслет Pulse Lite" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Хит</span>
+        <span class="rating">★ 4.9</span>
+      </div>
+      <h3 class="gradient-text">Фитнес-браслет Pulse Lite</h3>
+      <p>Следит за активностью, уведомлениями и временем работы без лишних функций.</p>
+      <div class="product-card__meta">
+        <span>Электроника</span>
+        <span>Сегодня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>5990 ₽</strong>
+          
+          <span class="old-price">7990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 5, &#34;name&#34;: &#34;Фитнес-браслет Pulse Lite&#34;, &#34;price&#34;: 5990, &#34;old_price&#34;: 7990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Следит за активностью, уведомлениями и временем работы без лишних функций.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_5.png&#34;, &#34;photos&#34;: [&#34;static/products/product_5.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 5, &#34;name&#34;: &#34;Фитнес-браслет Pulse Lite&#34;, &#34;price&#34;: 5990, &#34;old_price&#34;: 7990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Следит за активностью, уведомлениями и временем работы без лишних функций.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_5.png&#34;, &#34;photos&#34;: [&#34;static/products/product_5.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 5, &#34;name&#34;: &#34;Фитнес-браслет Pulse Lite&#34;, &#34;price&#34;: 5990, &#34;old_price&#34;: 7990, &#34;category&#34;: &#34;Электроника&#34;, &#34;description&#34;: &#34;Следит за активностью, уведомлениями и временем работы без лишних функций.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Хит&#34;, &#34;image&#34;: &#34;static/products/product_5.png&#34;, &#34;photos&#34;: [&#34;static/products/product_5.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="клавиатура mechanical rgb" data-category="Компьютерные аксессуары" data-price="2790" data-rating="4.5">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_6.png" alt="Клавиатура Mechanical RGB" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Новинка</span>
+        <span class="rating">★ 4.5</span>
+      </div>
+      <h3 class="gradient-text">Клавиатура Mechanical RGB</h3>
+      <p>Механическая клавиатура с яркой RGB-подсветкой для учебы, игр и работы.</p>
+      <div class="product-card__meta">
+        <span>Компьютерные аксессуары</span>
+        <span>Завтра</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>2790 ₽</strong>
+          
+          <span class="old-price">3490 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 6, &#34;name&#34;: &#34;Клавиатура Mechanical RGB&#34;, &#34;price&#34;: 2790, &#34;old_price&#34;: 3490, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Механическая клавиатура с яркой RGB-подсветкой для учебы, игр и работы.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.5, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Новинка&#34;, &#34;image&#34;: &#34;static/products/product_6.png&#34;, &#34;photos&#34;: [&#34;static/products/product_6.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 6, &#34;name&#34;: &#34;Клавиатура Mechanical RGB&#34;, &#34;price&#34;: 2790, &#34;old_price&#34;: 3490, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Механическая клавиатура с яркой RGB-подсветкой для учебы, игр и работы.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.5, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Новинка&#34;, &#34;image&#34;: &#34;static/products/product_6.png&#34;, &#34;photos&#34;: [&#34;static/products/product_6.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 6, &#34;name&#34;: &#34;Клавиатура Mechanical RGB&#34;, &#34;price&#34;: 2790, &#34;old_price&#34;: 3490, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Механическая клавиатура с яркой RGB-подсветкой для учебы, игр и работы.&#34;, &#34;delivery&#34;: &#34;Завтра&#34;, &#34;rating&#34;: 4.5, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Новинка&#34;, &#34;image&#34;: &#34;static/products/product_6.png&#34;, &#34;photos&#34;: [&#34;static/products/product_6.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="портативный ssd sandisk 2tb" data-category="Компьютерные аксессуары" data-price="3890" data-rating="4.8">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_7.png" alt="Портативный SSD SanDisk 2TB" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Скидка</span>
+        <span class="rating">★ 4.8</span>
+      </div>
+      <h3 class="gradient-text">Портативный SSD SanDisk 2TB</h3>
+      <p>Быстрый внешний накопитель для файлов, проектов, фото и видео.</p>
+      <div class="product-card__meta">
+        <span>Компьютерные аксессуары</span>
+        <span>Сегодня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>3890 ₽</strong>
+          
+          <span class="old-price">4990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 7, &#34;name&#34;: &#34;Портативный SSD SanDisk 2TB&#34;, &#34;price&#34;: 3890, &#34;old_price&#34;: 4990, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Быстрый внешний накопитель для файлов, проектов, фото и видео.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Скидка&#34;, &#34;image&#34;: &#34;static/products/product_7.png&#34;, &#34;photos&#34;: [&#34;static/products/product_7.png&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 7, &#34;name&#34;: &#34;Портативный SSD SanDisk 2TB&#34;, &#34;price&#34;: 3890, &#34;old_price&#34;: 4990, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Быстрый внешний накопитель для файлов, проектов, фото и видео.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Скидка&#34;, &#34;image&#34;: &#34;static/products/product_7.png&#34;, &#34;photos&#34;: [&#34;static/products/product_7.png&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 7, &#34;name&#34;: &#34;Портативный SSD SanDisk 2TB&#34;, &#34;price&#34;: 3890, &#34;old_price&#34;: 4990, &#34;category&#34;: &#34;Компьютерные аксессуары&#34;, &#34;description&#34;: &#34;Быстрый внешний накопитель для файлов, проектов, фото и видео.&#34;, &#34;delivery&#34;: &#34;Сегодня&#34;, &#34;rating&#34;: 4.8, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Скидка&#34;, &#34;image&#34;: &#34;static/products/product_7.png&#34;, &#34;photos&#34;: [&#34;static/products/product_7.png&#34;]}'>♡</button>
+      </div>
+    </article>
+
+    <article class="product-card glass-panel compact-product-card" data-name="аэрогриль smart grill 8l" data-category="Техника" data-price="18990" data-rating="4.9">
+      
+      <div class="product-card__image-wrap">
+        <img class="product-card__image" src="static/products/product_8.webp" alt="Аэрогриль Smart Grill 8L" />
+      </div>
+      
+      <div class="product-card__top">
+        <span class="badge">Для дома</span>
+        <span class="rating">★ 4.9</span>
+      </div>
+      <h3 class="gradient-text">Аэрогриль Smart Grill 8L</h3>
+      <p>Компактный аэрогриль с программами для быстрых домашних блюд.</p>
+      <div class="product-card__meta">
+        <span>Техника</span>
+        <span>2 дня</span>
+      </div>
+      <div class="price-row">
+        <div>
+          <strong>18990 ₽</strong>
+          
+          <span class="old-price">21990 ₽</span>
+          
+        </div>
+      </div>
+      <div class="card-actions">
+        <button class="button button--primary" data-add-to-cart data-product='{&#34;id&#34;: 8, &#34;name&#34;: &#34;Аэрогриль Smart Grill 8L&#34;, &#34;price&#34;: 18990, &#34;old_price&#34;: 21990, &#34;category&#34;: &#34;Техника&#34;, &#34;description&#34;: &#34;Компактный аэрогриль с программами для быстрых домашних блюд.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Для дома&#34;, &#34;image&#34;: &#34;static/products/product_8.webp&#34;, &#34;photos&#34;: [&#34;static/products/product_8.webp&#34;]}'>Купить сейчас</button>
+        <button class="button button--secondary" type="button" data-add-to-cart data-product='{&#34;id&#34;: 8, &#34;name&#34;: &#34;Аэрогриль Smart Grill 8L&#34;, &#34;price&#34;: 18990, &#34;old_price&#34;: 21990, &#34;category&#34;: &#34;Техника&#34;, &#34;description&#34;: &#34;Компактный аэрогриль с программами для быстрых домашних блюд.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Для дома&#34;, &#34;image&#34;: &#34;static/products/product_8.webp&#34;, &#34;photos&#34;: [&#34;static/products/product_8.webp&#34;]}'>Добавить в корзину</button>
+        <button class="button button--secondary favorite-btn" type="button" data-product='{&#34;id&#34;: 8, &#34;name&#34;: &#34;Аэрогриль Smart Grill 8L&#34;, &#34;price&#34;: 18990, &#34;old_price&#34;: 21990, &#34;category&#34;: &#34;Техника&#34;, &#34;description&#34;: &#34;Компактный аэрогриль с программами для быстрых домашних блюд.&#34;, &#34;delivery&#34;: &#34;2 дня&#34;, &#34;rating&#34;: 4.9, &#34;stock&#34;: &#34;В наличии&#34;, &#34;badge&#34;: &#34;Для дома&#34;, &#34;image&#34;: &#34;static/products/product_8.webp&#34;, &#34;photos&#34;: [&#34;static/products/product_8.webp&#34;]}'>♡</button>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<section class="section" id="favorites">
+  <div class="section__header">
+    <h2>Избранные товары</h2>
+    <a href="favorites.html">Открыть избранное</a>
+  </div>
+  <div class="favorites-strip glass-panel">
+    <div class="favorite-pill">⚡ Быстрый подбор</div>
+    <div class="favorite-pill">🔥 Топ-акции</div>
+    <div class="favorite-pill">🛍️ Лучшая доставка</div>
+    <div class="favorite-pill">🎯 Персональные рекомендации</div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="section__header">
+    <h2>Почему покупатели выбирают MarketHub</h2>
+  </div>
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <h3>Быстрый возврат</h3>
+      <p>26 дней на возврат и удобная проверка товаров в пункте выдачи.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Персональные скидки</h3>
+      <p>Система бонусов подстраивается под ваши покупки и интересы.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Надёжная доставка</h3>
+      <p>Сервис отслеживания, страхование и удобный выбор точки выдачи.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+    <footer class="footer">
+      <p>MarketHub © 2026 • Удобный онлайн-маркетплейс с быстрым оформлением и доставкой.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
